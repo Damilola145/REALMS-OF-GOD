@@ -1,0 +1,7 @@
+{
+  "name": "Realms of God Ministry",
+  "description": "A verified benevolence platform providing financial aid, medical assistance, emergency relief, and educational care for struggling pastors, evangelists, gospel ministers, and their surviving widows and orphans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
