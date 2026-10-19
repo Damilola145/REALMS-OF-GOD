@@ -626,19 +626,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
                   </div>
                 </div>
 
-                {/* Anonymous Checkbox */}
-                <label className="flex items-center gap-2 pt-1 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={isAnonymous}
-                    onChange={(e) => setIsAnonymous(e.target.checked)}
-                    className="w-3.5 h-3.5 text-slate-600 rounded border-slate-200 focus:ring-[#F6864C]"
-                  />
-                  <span className="text-xs text-[#0B1E37]">
-                    Keep public prayer wall contribution anonymous
-                  </span>
-                </label>
-              </div>
+               
 
               {/* Navigation Buttons */}
               <div className="grid grid-cols-2 gap-2 pt-2">
