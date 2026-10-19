@@ -701,7 +701,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
                     type="button"
                     disabled={isPaystackLoading}
                     onClick={() => handlePaystackCheckout('card')}
-                    className="py-3 px-3 rounded-xl bg-[#F6864C] hover:bg-[#e0753d] active:bg-[#c9632f] text-white font-bold text-xs transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer disabled:opacity-60"
+                    className="py-3 px-3 rounded-xl bg-[#F6864C] hover:bg-[#e0753d] active:bg-[#c9632f] text-white font-bold text-xs transition-all shadow-md flex items-center justify-center gap-2"
                   >
                     {isPaystackLoading ? (
                       <RefreshCw className="w-4 h-4 animate-spin text-white" />
@@ -715,7 +715,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
                     type="button"
                     disabled={isPaystackLoading}
                     onClick={() => handlePaystackCheckout('bank_transfer')}
-                    className="py-3 px-3 rounded-xl bg-white/15 hover:bg-white/25 active:bg-white/30 text-white font-bold text-xs transition-all border border-white/25 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-60"
+                    className="py-3 px-3 rounded-xl bg-white/15 hover:bg-white/25 active:bg-white/30 text-white font-bold text-xs transition-all border border-white/25 flex items-center justify-center gap-2"
                   >
                     {isPaystackLoading ? (
                       <RefreshCw className="w-4 h-4 animate-spin text-white" />
@@ -731,7 +731,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
                   type="button"
                   disabled={isPaystackLoading}
                   onClick={() => handlePaystackCheckout('all')}
-                  className="w-full py-2 px-3 rounded-lg bg-black/20 hover:bg-black/30 text-slate-200 text-[11px] font-semibold transition-all flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-60"
+                  className="w-full py-2 px-3 rounded-lg bg-black/20 hover:bg-black/30 text-slate-200 text-[11px] font-semibold transition-all flex items-center justify-center gap-1.5 cursor-pointer border border-transparent"
                 >
                   <Lock className="w-3.5 h-3.5 text-emerald-400" />
                   <span>Open Paystack Checkout ({formatCurrency(totalCharge, currency)}) with all payment methods</span>
