@@ -653,7 +653,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
                 </button>
               </div>
             </div>
-          )}
+          
 
           {/* STEP 3: PAYMENT RAILS */}
           {step === 'payment' && (
@@ -933,7 +933,7 @@ export const DonationGatewayModal: React.FC<DonationGatewayModalProps> = ({
               </h3>
               <p className="text-xs text-slate-600 max-w-xs mx-auto font-light">
                 Securing settlement with NIBSS & Paystack, allocating your benevolence, and generating your official tax receipt.
-              </p>
+              </p> 
             </div>
           )}
 
